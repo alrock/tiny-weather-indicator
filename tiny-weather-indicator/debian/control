@@ -1,0 +1,15 @@
+Source: tiny-weather-indicator
+Section: misc
+Priority: optional
+Maintainer: Alexandr Krivoschekov <alexandrsk@gmail.com>
+Build-Depends: debhelper (>= 9), python-all-dev (>= 2.6.6-3~), cdbs (>= 0.4.90~)
+Standards-Version: 3.9.2
+Homepage: https://github.com/alrock/tiny-weather-indicator/
+Vcs-Git: git@github.com:alrock/tiny-weather-indicator.git
+Vcs-Browser: https://github.com/alrock/tiny-weather-indicator.git
+
+Package: tiny-weather-indicator
+Architecture: all
+X-Python-Version: >= 2.7
+Depends: ${misc:Depends}, ${python:Depends}, python-gi
+Description: Tiny weather indicator for unity
